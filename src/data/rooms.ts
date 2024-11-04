@@ -1,0 +1,32 @@
+export const rooms = [
+  {
+    id: '1',
+    name: 'Executive Suite',
+    location: 'Floor 3, Building A',
+    capacity: 12,
+    imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800',
+    amenities: ['Projector', 'Whiteboard', 'Video Conference'],
+    available: true,
+    bookings: [],
+  },
+  {
+    id: '2',
+    name: 'Creative Space',
+    location: 'Floor 2, Building B',
+    capacity: 8,
+    imageUrl: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800',
+    amenities: ['Whiteboard', 'TV Screen'],
+    available: true,
+    bookings: [],
+  },
+  {
+    id: '3',
+    name: 'Meeting Room 101',
+    location: 'Floor 1, Building A',
+    capacity: 6,
+    imageUrl: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800',
+    amenities: ['Projector', 'Coffee Machine'],
+    available: true,
+    bookings: [],
+  },
+];
